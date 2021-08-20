@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: rgb(40, 40, 40);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+a{
+    color: rgb(132, 131, 175);
+}
+h1{
+    animation: translate 10s infinite 1s alternate;
+}
+
+@keyframes translate {
+    0%{
+        color: rgb(132, 131, 175);
+    }
+    15%{
+        color: rgb(0, 131, 175);
+    }
+    30%{
+        color: rgb(132, 0, 175);
+    }
+    50%{
+        color: rgb(132, 131, 0);
+    }
+    70%{
+        color: rgb(24, 255, 175);
+    }
+    85%{
+        color: rgb(255, 90, 175);
+    }
+    100%{
+        color: rgb(100, 100, 100);
+    }
+}
